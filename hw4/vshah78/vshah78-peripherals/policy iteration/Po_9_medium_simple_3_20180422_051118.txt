@@ -1,0 +1,2 @@
+Time_MS, Iterations, WallPenalty
+27,6,50

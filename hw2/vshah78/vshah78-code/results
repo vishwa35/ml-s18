@@ -1,0 +1,106 @@
+results
+
+20k iterations/2k iterations
+$ java -cp ABAGAIL.jar opt.test.KnapsackTest
+-------------------RHC-------------------
+RHC AVG: 2910.0395
+RHC timeAVG: 2.4048
+-------------------SA-------------------
+SA AVG: 2960.8244
+SA timeAVG: 12.4858
+-------------------Genetic-------------------
+Genetic AVG: 3309.1765
+Genetic timeAVG: 145.134
+-------------------MIMIC-------------------
+MIMIC AVG: 3398.309
+MIMIC timeAVG: 2986.129
+$
+
+20k iterations/2k iterations
+$ java -cp ABAGAIL.jar opt.test.FlipFlopTest
+-------------------RHC-------------------
+RHC AVG: 64.7563
+RHC timeAVG: 4.0665
+-------------------SA-------------------
+SA AVG: 77.81705
+SA timeAVG: 11.252
+-------------------Genetic-------------------
+Genetic AVG: 71.725
+Genetic timeAVG: 112.979
+-------------------MIMIC-------------------
+MIMIC AVG: 69.8375
+MIMIC timeAVG: 7535.427
+
+20k iterations/2k iterations
+$ java -cp ABAGAIL.jar opt.test.CountOnesTest
+-------------------RHC-------------------
+RHC AVG: 80.0
+RHC timeAVG: 4.1057
+-------------------SA-------------------
+SA AVG: 80.0
+SA timeAVG: 11.3398
+-------------------Genetic-------------------
+Genetic AVG: 78.5965
+Genetic timeAVG: 263.6925
+-------------------MIMIC-------------------
+MIMIC AVG: 79.826
+MIMIC timeAVG: 7682.0105
+
+
+20k iterations/2k iterations
+$ java -cp ABAGAIL.jar opt.test.TravelingSalesmanTest
+-------------------RHC-------------------
+RHC AVG: 0.1124865359441749
+RHC timeAVG: 11.65
+-------------------SA-------------------
+SA AVG: 0.11705345847302986
+SA timeAVG: 20.75
+-------------------Genetic-------------------
+Genetic AVG: 0.13847250328631056
+Genetic timeAVG: 465.0
+-------------------MIMIC-------------------
+MIMIC AVG: 0.08381466758105265
+MIMIC timeAVG: 20012.0
+
+5k iterations/500 iterations
+$ java -cp ABAGAIL.jar opt.test.KnapsackTest
+-------------------RHC-------------------
+RHC AVG: 2938.6415
+RHC timeAVG: 2.4215
+-------------------SA-------------------
+SA AVG: 2972.417
+SA timeAVG: 11.8435
+-------------------Genetic-------------------
+Genetic AVG: 3271.295
+Genetic timeAVG: 153.545
+-------------------MIMIC-------------------
+MIMIC AVG: 3352.81
+MIMIC timeAVG: 3036.555
+
+$ java -cp ABAGAIL.jar opt.test.FlipFlopTest
+-------------------RHC-------------------
+RHC AVG: 64.7756
+RHC timeAVG: 4.87835
+-------------------SA-------------------
+SA AVG: 77.8165
+SA timeAVG: 12.247
+-------------------Genetic-------------------
+Genetic AVG: 71.7915
+Genetic timeAVG: 126.503
+-------------------MIMIC-------------------
+MIMIC AVG: 69.7535
+MIMIC timeAVG: 6810.2295
+
+$ java -cp ABAGAIL.jar opt.test.TravelingSalesmanTest
+-------------------RHC-------------------
+RHC AVG: 0.12225637329751891
+RHC timeAVG: 12.1134
+-------------------SA-------------------
+SA AVG: 0.12250534780973649
+SA timeAVG: 24.3786
+-------------------Genetic-------------------
+Genetic AVG: 0.14694500719422995
+Genetic timeAVG: 495.292
+-------------------MIMIC-------------------
+MIMIC AVG: 0.09533374573734686
+MIMIC timeAVG: 21233.364

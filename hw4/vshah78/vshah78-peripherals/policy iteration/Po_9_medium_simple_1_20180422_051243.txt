@@ -1,0 +1,2 @@
+Time_MS, Iterations, WallPenalty
+100,7,50
